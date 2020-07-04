@@ -1,0 +1,33 @@
+### Project ###
+*
+!*/
+!.gitignore
+!*.md
+!*.yml
+
+# Volumes
+!volumes/**
+
+# Git secret
+!*.secret
+!.gitsecret/**
+.gitsecret/keys/random_seed
+
+### JetBrains ###
+# CMake
+cmake-build-*/
+
+# IntelliJ
+out/
+.idea/
+.idea_modules/
+
+### Linux ###
+*~
+
+### VisualStudioCode ###
+.vscode/
+
+### Windows ###
+$RECYCLE.BIN/
+
